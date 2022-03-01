@@ -5,10 +5,16 @@ package teksystems.java;
 
 public class Monster {
     //superclass
-    public String name;
-    public Monster(String monsterName){
-        name = monsterName;
+    private String name;
+
+    public Monster(String name) {
+        this.name = name;
     }
+
+    public String attack() {
+        return "!^_&amp;^$@+%$* I don't know how to attack";
+    }
+
     //need an attack method for each monster type?
     //types: water, fire, stone
 
